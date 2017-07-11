@@ -22,8 +22,8 @@ p {
 }
 
 .brand {
-    width: 60px;
-    height: 60px;
+    width: 57px;
+    height: 57px;
 }
 .brand__img {
     width: 100%;
@@ -94,22 +94,23 @@ p {
     width: 250px;
     display:block;
     position:fixed;
-    left:-70px;
-    top:68px;
+    left:-45px;
+    top:65px;
     transition:left 0.3s linear;
+    font-size: 24px;
 }
 .sidebar__list{
-      padding-left: 80px;
+      padding-left: 20px;
 }
 .sidebar.visible{
-    top: 70px;
-    left:0px;
+    top: 65px;
+    left:-55px;
     transition:left 0.3s linear;
 }
 .sidebar__item{
     list-style:none;
-    text-align: left;
-    padding: 20px 0;
+    text-align: right;
+    padding: 20px 8px;
 }
 .sidebar__item:hover{
     background: #FFAC76;
@@ -117,6 +118,7 @@ p {
 .sidebar__link{
     color: #eeeeee;
     padding:0 20px;
+    font-family: 'Lato', 'Times New Roman', sans-serif;
 }
 .sidebar__link i {
     padding-left: 10px;
@@ -126,21 +128,23 @@ p {
     padding: 0 10px;
 }
 
-.sidebar-btn{
-    top:0;
+.sidebar-btn {
+    top: 0;
     left: 256px;
-    display:none;
+    display: none;
     vertical-align: middle;
-    height:120px;
-    cursor:pointer;
-    position:absolute;
+    height: 120px;
+    cursor: pointer;
+    position: absolute;
 
-
+}
+.sidebar-btn__link i{
+    color: #766D66;
 }
 
 .content {
     margin-left: 180px;
-    padding-top: 69px;
+    padding-top: 65px;
 }
 .content__top {
     height: 800px;
@@ -293,11 +297,11 @@ p{
 
 .footer__socials a {
     text-decoration: none;
-    color: #3EB9EB;
+    color: #F5F5F5;
     font-size: 20px;
     margin: 0 10px;
 }
 
 .footer__socials a:hover, .footer__sub-links-list li a:hover {
-    color: #314D9B;
+    color: #ffac76;
 }
